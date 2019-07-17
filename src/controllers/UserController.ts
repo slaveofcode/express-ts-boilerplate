@@ -1,8 +1,8 @@
 import { OK, BAD_REQUEST } from 'http-status-codes';
 import { Controller, Middleware, Get, Post, Put, Delete } from '@overnightjs/core';
 import { Request, Response, NextFunction } from 'express';
-import PageNotFound from '../exceptions/PageNotFound';
-import BadRequest from '../exceptions/BadRequest';
+import PageNotFound from '@exceptions/PageNotFound';
+import BadRequest from '@exceptions/BadRequest';
 
 @Controller('api/users')
 export class UserController {
