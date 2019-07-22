@@ -12,9 +12,13 @@ Simply clone this repository and running `npm i` to get all dependencies install
 
 ### Build
 
-Get ready for prodiction? run command below to compile the script.
+Get ready for production? run command below to transpile targeting commonjs script.
 
 > npm run build
+
+Start the transpiled script 
+
+> npm start
 
 ### Lint via tslint
 
