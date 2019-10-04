@@ -12,6 +12,11 @@
     "lint:fix": "tslint --project tsconfig.json --fix",
     "build": "npm run lint && node ./util/build.js"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git@gitlab.gift.id:services/auth.git"
